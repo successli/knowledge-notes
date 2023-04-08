@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"type":"file","file":"Exercise/主页.md","id":"eee0cba038e61a80","x":-438,"y":-756,"width":382,"height":264},
+		{"type":"file","file":"Exercise/兔八哥的减肥新计划.png","id":"0fa1a5bc3f678ea4","x":-943,"y":-281,"width":400,"height":288},
+		{"type":"text","text":"饮食与运动","id":"1d3fa15647dfa894","x":-884,"y":-520,"width":109,"height":57,"color":"5"}
+	],
+	"edges":[
+		{"id":"0fc5705eae888570","fromNode":"1d3fa15647dfa894","fromSide":"bottom","toNode":"0fa1a5bc3f678ea4","toSide":"top"},
+		{"id":"c9e81aa64df866b6","fromNode":"1d3fa15647dfa894","fromSide":"right","toNode":"eee0cba038e61a80","toSide":"left"}
+	]
+}
