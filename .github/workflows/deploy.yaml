@@ -49,7 +49,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          deploy_key: ${{ secrets.DEPLOY_ACCESS_KEY }}
           publish_dir: ./public
           publish_branch: obsidian  # deploying branch
           cname: www.successli.cn   # 修改成你的域名
